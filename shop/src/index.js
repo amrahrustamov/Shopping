@@ -6,9 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React>
+  <React.StrictMode>
     <BrowserRouter>
         <App />
     </BrowserRouter>
-  </React>
+  </React.StrictMode>
 );
