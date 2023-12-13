@@ -4,17 +4,31 @@
     justify-content: space-between;
 }
 .cards{
-    border: 1px solid black;
+    border: 1px solid rgb(191, 189, 189);
+    border-radius: 5px;
     width: 20%;
     height: auto;
     margin: 40px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 img{
     max-width: 80%;
     height: 300px;
+
+}
+h2{
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+    color: rgb(240, 97, 8);
+}
+button{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
 }
