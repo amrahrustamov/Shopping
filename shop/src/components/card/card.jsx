@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import '../card/style.css'
-import apiURL from '../../utilities/api';
-import { Link } from 'react-router-dom';
+import apiURL from '../../utilities/api'
+import { Link } from 'react-router-dom'
 
 
 const Card = () => {
     const [data, setData] = useState([]);
-
+    
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -33,7 +33,7 @@ const Card = () => {
                         item.title.length < 20 ? <h2>{item.title}</h2> : <h2>{item.title.slice(0, 20)}...</h2>
                     }
                     <p>{item.price} ₼</p>
-                    <Link to={"/details"}>Details</Link>
+                    <Link to={`/products/details/${item.id}`}>Details</Link>
                 </div>
             ))}
         </div>
