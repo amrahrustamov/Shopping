@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 30px 50px;
+    padding: 0 5px 5px 5px;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+.list{
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(252, 197, 101);
+    transition: .4s;
+    width: 100%;
+}
+.list:hover{
+    transform: translateX(20px);
+}
+.active{
+    color: darkred !important;
+}

@@ -3,3 +3,22 @@
     justify-content: center;
     align-items: center;
 }
+.cards{
+}
+
+img{
+    border: 1px solid black;
+}
+h5{
+    margin-top: 15px;
+}
+h2{
+    margin-top: 15px;
+}
+h3{
+    margin-top: 15px;
+}
+p{
+    border: 1px solid black;
+    margin-top: 15px;
+}

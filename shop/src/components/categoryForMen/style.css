@@ -8,7 +8,6 @@
     background-color: bisque;
     border-radius: 5px;
     width: 20%;
-    height: auto;
     margin: 40px;
     padding: 10px;
     display: flex;
@@ -16,27 +15,28 @@
     align-items: center;
 }
 img{
-    border: none !important;
-    border-radius: 5px;
-    max-width: 90%;
+    max-width: 80%;
     height: 300px;
 
 }
 h2{
-    border: none !important;
     margin-top: 15px;
-    border-radius: 5px;
-    background-color: rgba(113, 113, 113, 0.199);
+    border: none !important;
 }
 p{
-    border: none !important;
-    border-radius: 5px;
     margin-top: 15px;
     color: rgb(240, 97, 8);
-    background-color: gold;
+    border: none !important;
 }
 .button{
     cursor: pointer;
     margin-top: 15px;
-    font-size: 30px !important;
+    width: 100px;
+    height: 30px;
+}
+.leftPart{
+    width: 20%;
+}
+.rightPart{
+    width: 80%;
 }

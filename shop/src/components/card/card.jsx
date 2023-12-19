@@ -33,7 +33,7 @@ const Card = () => {
                         item.title.length < 20 ? <h2>{item.title}</h2> : <h2>{item.title.slice(0, 20)}...</h2>
                     }
                     <p>{item.price} ₼</p>
-                    <Link to={`/products/details/${item.id}`}>Details</Link>
+                    <Link to={`/products/details/${item.id}`} className='button'>Details</Link>
                 </div>
             ))}
         </div>
